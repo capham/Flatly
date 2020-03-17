@@ -1,5 +1,5 @@
 {
-  "name": "idavoll/flatly-theme",
+  "name": "capham/flatly-theme",
   "type": "asgard-theme",
   "description": "An AsgardCMS Flatly bootswatch theme",
   "keywords": [
@@ -7,6 +7,10 @@
   ],
   "license": "MIT",
   "authors": [
+    {
+      "name": "Ca Pham",
+      "email": "capham89@gmail.com"
+    },
     {
       "name": "Nicolas Widart",
       "email": "info@asgardcms.com",
@@ -24,11 +28,6 @@
     "post-update-cmd": [
       "php artisan stylist:publish"
     ]
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "4.0.x-dev"
-    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true
